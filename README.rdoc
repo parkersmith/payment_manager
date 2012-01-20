@@ -1,0 +1,28 @@
+= Introduction
+
+Payment Manager is a convenience wrapper for the Active Merchant[http://activemerchant.org] library specifically using the Authorize.Net payment gateway.  While
+Active Merchant is an amazing library, this wrapper abstracts some of the common Authorize.Net calls into single methods, specifically simplifying interaction
+with the Automated Recurring Billing (ARB) and Customer Information Manager (CIM) APIs.
+
+= Features
+* authorize 
+* capture
+* purchase
+* verify card with 1.00 authorization, then void
+* void transaction
+* refund transaction
+* ARB: add recurring billing transaction
+* ARB: update recurring billing transaction
+* ARB: cancel recurring billing transaction
+* CIM: create customer profile
+* CIM: delete customer profile
+* CIM: create customer payment profile
+* CIM: update customer payment profile
+* CIM: charge customer payment profile
+
+= Contributors
+* Brian Webb (http://parkersmithsoftware.com) 
+
+= Legal Mumbo Jumbo
+
+Unless otherwise noted in specific files, all code in the Payment Manager project is under the copyright and license described in the included MIT-LICENSE file.
